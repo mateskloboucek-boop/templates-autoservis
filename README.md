@@ -6,6 +6,16 @@ Responzivní jednostránkový web pro autoservis. Postavený v čistém HTML, CS
 
 Otevřete `index.html` v prohlížeči. Pro vývoj ve VS Code lze použít libovolný lokální HTTP server.
 
+## Publikování přes GitHub Pages
+
+Soubory webu (`index.html`, `styles.css` a `script.js`) jsou v kořeni repozitáře. Na GitHubu otevřete **Settings → Pages** a v části **Build and deployment** nastavte:
+
+- **Source:** Deploy from a branch
+- **Branch:** `main`
+- **Folder:** `/(root)`
+
+Po uložení bude web dostupný na adrese `https://mateskloboucek-boop.github.io/4/` (název účtu nebo repozitáře v adrese změňte, pokud se liší). Publikace po odeslání změn na GitHub může několik minut trvat.
+
 ## Před předáním konkrétnímu servisu upravte
 
 - Název, logo, město, adresu, telefon a otevírací dobu v `index.html`.
