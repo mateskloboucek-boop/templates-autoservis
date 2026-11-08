@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f2f0eb" />
+    <meta name="description" content="Autoservis Dílna 28 v Brně. Servis, diagnostika a opravy osobních aut po předchozí domluvě." />
+    <title>Dílna 28 — Autoservis v Brně</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="topline">
+      <div class="topline__inner">
+        <span>Autoservis osobních aut <i></i> Brno — Žabovřesky</span>
+        <span class="topline__hours">Po–Pá <b>8:00–17:00</b></span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#domu" aria-label="Dílna 28 — úvodní stránka">
+        <span class="wordmark__stamp">28</span>
+        <span class="wordmark__text">DÍLNA<span>28</span><small>AUTOSERVIS</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Otevřít navigaci" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Hlavní navigace">
+        <a href="#sluzby">Co opravujeme</a>
+        <a href="#pristup">Jak pracujeme</a>
+        <a href="#kontakt">Kde nás najdete</a>
+      </nav>
+      <a class="header-call" href="tel:+420777280028"><span class="header-call__icon" aria-hidden="true">↗</span><span>+420 777 280 028</span></a>
+    </header>
+
+    <main>
+      <section class="hero page-wrap" id="domu">
+        <div class="hero__text">
+          <p class="kicker"><span class="kicker__line"></span> AUTOSERVIS V BRNĚ · ŽABOVŘESKY</p>
+          <h1>Když auto<br />zlobí, <em>stavte se.</em></h1>
+          <p class="hero__lead">Opravy a běžný servis bez zbytečného obíhání. Nejdřív se podíváme, řekneme vám cenu a až potom se pustíme do práce.</p>
+          <div class="hero__links">
+            <a class="button" href="#kontakt">Domluvit návštěvu <span aria-hidden="true">↗</span></a>
+            <a class="plain-link" href="#sluzby">Co u nás vyřešíte <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero__note"><span class="hero__note-mark">●</span><span>Malá dílna. Přímá domluva.<br /><b>Žádné opravy bez vašeho souhlasu.</b></span></div>
+        </div>
+
+        <figure class="hero__photo">
+          <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1400&q=85" alt="Mechanik při práci na motoru automobilu" fetchpriority="high" />
+          <figcaption class="photo-note">Ukázková fotografie</figcaption>
+          <div class="photo-label"><span class="photo-label__dot"></span> DÍLNA 28 <span class="photo-label__separator">/</span> BRNO</div>
+          <div class="photo-number">28</div>
+        </figure>
+      </section>
+
+      <div class="service-ribbon" aria-label="Hlavní služby">
+        <div class="service-ribbon__inner page-wrap"><span>CO U NÁS ŘEŠÍME</span><b>Mechanika</b><i></i><b>Diagnostika</b><i></i><b>Pneuservis</b><i></i><b>Pravidelný servis</b><span class="service-ribbon__arrow">↘</span></div>
+      </div>
+
+      <section class="services section page-wrap" id="sluzby">
+        <div class="section-intro">
+          <p class="kicker"><span class="kicker__line"></span> SERVIS A OPRAVY</p>
+          <h2>Od běžné údržby<br />po hledání závady.</h2>
+          <p class="section-intro__copy">Přijímáme osobní auta většiny značek. Pokud si nejste jistí, jestli je daná oprava pro nás, prostě zavolejte.</p>
+        </div>
+        <div class="service-list">
+          <article class="service-item"><span class="service-item__num">01</span><div><h3>Mechanické opravy</h3><p>Brzdy, podvozek, výfuk, spojka i další věci, které se časem ozvou.</p></div><span class="service-item__arrow" aria-hidden="true">↗</span></article>
+          <article class="service-item"><span class="service-item__num">02</span><div><h3>Diagnostika</h3><p>Svítí kontrolka nebo auto nejede jako dřív? Zjistíme, co se děje.</p></div><span class="service-item__arrow" aria-hidden="true">↗</span></article>
+          <article class="service-item"><span class="service-item__num">03</span><div><h3>Olej a pravidelný servis</h3><p>Výměna oleje, filtrů a provozních kapalin podle potřeb vašeho auta.</p></div><span class="service-item__arrow" aria-hidden="true">↗</span></article>
+          <article class="service-item"><span class="service-item__num">04</span><div><h3>Pneuservis</h3><p>Přezutí a vyvážení kol po domluvě. Termín si raději rezervujte předem.</p></div><span class="service-item__arrow" aria-hidden="true">↗</span></article>
+        </div>
+      </section>
+
+      <section class="approach" id="pristup">
+        <div class="approach__inner page-wrap">
+          <div class="approach__photo-wrap">
+            <img class="approach__photo" src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1100&q=85" alt="Detail motoru při servisní kontrole" loading="lazy" />
+            <span class="approach__caption">Každou opravu nejdřív probereme.</span>
+          </div>
+          <div class="approach__content">
+            <p class="kicker kicker--light"><span class="kicker__line"></span> JAK TO U NÁS CHODÍ</p>
+            <h2>Nejdřív se<br />domluvíme.<br /><em>Pak opravujeme.</em></h2>
+            <div class="steps">
+              <div class="step"><span>01</span><p><b>Zavoláte nebo napíšete.</b> Popíšete, co auto dělá, a domluvíme další postup.</p></div>
+              <div class="step"><span>02</span><p><b>Auto prohlédneme.</b> Ozveme se s tím, co jsme zjistili a kolik bude oprava stát.</p></div>
+              <div class="step"><span>03</span><p><b>Rozhodnutí je na vás.</b> Do práce se pustíme, až když si vše odsouhlasíme.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section page-wrap" id="kontakt">
+        <div class="contact__copy">
+          <p class="kicker"><span class="kicker__line"></span> KONTAKT A PROVOZOVNA</p>
+          <h2>Potřebujete<br />se na něco <em>zeptat?</em></h2>
+          <p>Nejrychlejší je zavolat. Když zrovna pracujeme, nechte nám zprávu a ozveme se zpátky.</p>
+          <a class="contact-phone" href="tel:+420777280028">+420 777 280 028 <span aria-hidden="true">↗</span></a>
+          <div class="contact-facts">
+            <div><span>NAJDETE NÁS</span><b>Horova 28, Brno — Žabovřesky</b></div>
+            <div><span>OTEVÍRACÍ DOBA</span><b>Po–Pá, 8:00–17:00</b></div>
+          </div>
+        </div>
+        <form class="contact-form" id="booking-form">
+          <div class="form-heading"><span class="form-heading__mark">✳</span><div><h3>Napište nám</h3><p>Ozveme se vám zpátky.</p></div></div>
+          <label for="name">Jméno</label>
+          <input id="name" name="name" type="text" placeholder="Jak vám máme říkat?" autocomplete="name" required />
+          <label for="phone">Telefon</label>
+          <input id="phone" name="phone" type="tel" placeholder="Číslo, na kterém vás zastihneme" autocomplete="tel" required />
+          <label for="service">Co potřebujete vyřešit?</label>
+          <select id="service" name="service" required><option value="" disabled selected>Vyberte nebo zavolejte</option><option>Servis nebo oprava</option><option>Diagnostika</option><option>Pneuservis</option><option>Jiný dotaz</option></select>
+          <button class="button button--form" type="submit">Odeslat poptávku <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Formulář je ukázkový a zatím zprávu neodesílá.</p>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner page-wrap">
+        <a class="wordmark wordmark--footer" href="#domu"><span class="wordmark__stamp">28</span><span class="wordmark__text">DÍLNA<span>28</span><small>AUTOSERVIS</small></span></a>
+        <span class="footer-address">Horova 28, Brno — Žabovřesky</span>
+        <a class="footer-up" href="#domu">Zpátky nahoru ↑</a>
+      </div>
+      <div class="footer-bottom page-wrap"><span>© <span id="year"></span> Dílna 28</span><span>Ukázkový web — údaje a fotografie před zveřejněním upravte.</span></div>
+    </footer>
+  </body>
+</html>
